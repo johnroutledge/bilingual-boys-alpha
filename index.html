@@ -11,48 +11,89 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <article class="container">
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="/" class="navbar-brand">Bilingual Boys</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
+        </ul>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"><i>Everything you need to know about life in the UK!</i></p>
+            <a href="/login">Sign In / Sign Up</a>
+        </div>
+    </nav>
+    <article class="container mt-3">
         <!--callout-->
-        <section class="callout">
-            <h1>Bilingual Boys</h1>
-            <p class="lead">Register today to get lifestyle and language advice for starting life in the UK with children. <s>£19.99</s> <strong><mark>First month is free!</mark></strong></p>
-            <button class="btn btn-success btn-lg">Register Now!</button>
-        </section>
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h1>Bilingual Boys</h1>
+                    <p class="lead">Register today to get lifestyle and language advice for starting life in the UK with children. 
+                        <s class="d-none d-sm-inline">£19.99</s>
+                        <span class="d-inline d-sm-none"><br></span> 
+                        <strong><mark>First month is free!</mark></strong></p>
+                    <button class="btn btn-success btn-lg">Register Now!</button>
+                </section>
+            </div>
+        </div>
         <!--/.callout-->
         <hr>
 
         <!--quotes-->
         <section class="quotes">
-            <h2 class="text-uppercase">Quotes:</h2>
-            <blockquote class="blockquote">
-                <p>I've learned so much about moving to the UK from Thailand. An invaluable resource!</p>
-                <p>- Ladda Wongmanne</p>
-            </blockquote>
-            <blockquote class="blockquote">
-                <p>Hundreds of useful language tips with examples. These helped massively when we first moved to England.</p>
-                <p>- Tongkarn Wongmanne</p>
-            </blockquote>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-uppercase">Quotes:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <blockquote class="blockquote">
+                        <p>I've learned so much about moving to the UK from Thailand. An invaluable resource!</p>
+                        <p>- Ladda Wongmanne</p>
+                    </blockquote>
+                </div>
+                <div class="col-12 col-md-6">
+                    <blockquote class="blockquote">
+                        <p>Hundreds of useful language tips with examples. These helped massively when we first moved to England.</p>
+                        <p>- Tongkarn Wongmanne</p>
+                    </blockquote>
+                </div>
+            </div>
         </section>
         <!--/.quotes-->
         <hr>
 
         <!--features-->
         <section class="features">
-            <h2 class="text-uppercase">Features:</h2>
-            <div class="feature">
-                <h3>Feature 1:</h3>
-                <p>Advice and tips on moving to the UK with a small family.</p>
-                <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-uppercase">Features:</h2>
+                </div>
             </div>
-            <div class="feature">
-                <h3>Feature 2:</h3>
-                <p>Links to all the relevant government websites to make the move as eas as possible.</p>
-                <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
-            </div>
-            <div class="feature">
-                <h3>Feature 3:</h3>
-                <p>English language lessons, tips and online classes available.</p>
-                <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 1:</h3>
+                        <p>Advice and tips on moving to the UK with a small family.</p>
+                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 2:</h3>
+                        <p>Links to all the relevant government websites to make the move as eas as possible.</p>
+                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                    </div>
+                </div>
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 3:</h3>
+                        <p>English language lessons, tips and online classes available.</p>
+                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                    </div>
+                </div>
             </div>
         </section>
         <!--features-->
