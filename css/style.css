@@ -1,3 +1,165 @@
 body {
     font-family: 'Annie Use Your Telescope', cursive;
 }
+
+.container-wrapper {}
+
+.container-wrapper-lightblue {
+    color: white;
+    background-color: #5ec6f3
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #9ae0f9;
+    border-color: #9ae0f9;
+}
+
+.callout-container {
+    height: 100vh;
+
+    background: url("../images/bg.jpg") no-repeat top right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+.quotes-container {}
+
+.features-container {}
+
+/*navbar*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/*content container*/
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/*page headers*/
+
+.page-header {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+/*jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/*buttons*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--lightblue {
+    color: white;
+    background-color: #5ec6f3;
+    border-color: white;
+}
+
+.btn--lightblue:hover,
+.btn--lightblue:active,
+.btn--lightblue:focus,
+.btn--lightblue:active:focus {
+    color: white;
+    background-color: #f17fe5;
+    border-color: white;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #5ec6f3;
+}

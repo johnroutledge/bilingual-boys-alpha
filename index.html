@@ -11,133 +11,150 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
-        <a href="/" class="navbar-brand">Bilingual Boys</a>
-
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span></button>
-
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Language Help</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Greetings</a>
-                        <a class="dropdown-item" href="#">Shopping</a>
-                        <a class="dropdown-item" href="#">Family talk</a>
-                        <a class="dropdown-item" href="#">Travel</a>
+    <div class="container-fluid navalert-container">
+        <div class="container-fluid alert-container">
+            <div class="row d-none d-sm-block">
+                <div class="col-12">
+                    <div class="site-wide-alert alert alert-warning">
+                        <strong>Sale now on!</strong> Get 12 month's subscription for the price of 6! <a href="">See here for details!</a>
                     </div>
-                </li>
-
-                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
-            </ul>
-        </div>
-        <div class="d-none d-md-block">
-            <p class="navbar-text my-auto mr-2"><i>Everything you need to know about life in the UK!</i></p>
-            <a href="/login">Sign In / Sign Up</a>
-        </div>
-    </nav>
-    <article class="container mt-3">
-        <div class="row d-none d-sm-block">
-            <div class="col-12">
-                <div class="alert alert-warning">
-                    <strong>Sale now on!</strong> Get 12 month's subscription for the price of 6! <a href="">See here for details!</a>
                 </div>
             </div>
         </div>
-        <!--callout-->
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <a href="/" class="navbar-brand">Bilingual Boys</a>
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Language Help</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Greetings</a>
+                            <a class="dropdown-item" href="#">Shopping</a>
+                            <a class="dropdown-item" href="#">Family talk</a>
+                            <a class="dropdown-item" href="#">Travel</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-2"><i>Everything you need to know about life in the UK!</i></p>
+                <a href="/login" class="btn btn--cta btn--lightblue">Sign In / Sign Up</a>
+            </div>
+        </nav>
+    </div>
+
+    
+
+    <!--callout-->
+    <div class="container-fluid callout-container">
+        <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
-                    <h1>Bilingual Boys</h1>
+                    <h1 class="jumbotron-header">Bilingual Boys</h1>
                     <p class="lead">Register today to get lifestyle and language advice for starting life in the UK with children. 
                         <s class="d-none d-sm-inline">£19.99</s>
                         <span class="d-inline d-sm-none"><br></span> 
                         <strong><mark>First month is free!</mark></strong></p>
-                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Register Now!</button>
+                    <button class="btn btn--cta btn--lightblue" data-toggle="modal" data-target="#signUpModal">Register Now!</button>
                 </section>
             </div>
         </div>
-        <!--/.callout-->
-        <hr>
+    </div>    
+    <!--/.callout-->
+    
 
-        <!--quotes-->
-        <section class="quotes">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="text-uppercase">Quotes:</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <div class="media">
-                        <div class="d-none d-sm-block">
-                            <img src="images/girl-image.png" class="rounded-circle mr-3" height="100" width="100">
-                        </div>
-                        <div class="media-body">
-                            <blockquote class="blockquote">
-                                <p>I've learned so much about moving to the UK from Thailand. An invaluable resource!</p>
-                                <p>- Ladda Wongmanne</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="media">
-                        <div class="d-none d-sm-block">
-                            <img src="images/guy-image.png" class="rounded-circle mr-3" height="100" width="100">
-                        </div>
-                        <div class="media-body">
-                            <blockquote class="blockquote">
-                                <p>Hundreds of useful language tips with examples. These helped massively when we first moved to England.</p>
-                                <p>- Tongkarn Wongmanne</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--/.quotes-->
-        <hr>
 
-        <!--features-->
-        <section class="features">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="text-uppercase">Features:</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fa fa-home d-none d-sm-inline" aria-hidden="true"></i> Feature 1</h3>
-                        <p>Advice and tips on moving to the UK with a small family.</p>
-                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+    <!--quotes-->
+    <div class="container-wrapper">
+        <div class="container quotes-container content-container">
+            <section class="quotes">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase">Quotes:</h2>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fa fa-id-card d-none d-sm-inline" aria-hidden="true"></i> Feature 2</h3>
-                        <p>Links to all the relevant government websites to make the move as eas as possible.</p>
-                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="images/girl-image.png" class="rounded-circle mr-3" height="100" width="100">
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>I've learned so much about moving to the UK from Thailand. An invaluable resource!</p>
+                                    <p>- Ladda Wongmanne</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="images/guy-image.png" class="rounded-circle mr-3" height="100" width="100">
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>Hundreds of useful language tips with examples. These helped massively when we first moved to England.</p>
+                                    <p>- Tongkarn Wongmanne</p>
+                                </blockquote>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 d-md-none d-lg-block col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fa fa-comments d-none d-sm-inline" aria-hidden="true"></i> Feature 3 <span class="badge badge-success">NEW!</span></h3>
-                        <p>English language lessons, tips and online classes available.</p>
-                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--features-->
+            </section>
+        </div>
+    </div>
+    <!--/.quotes-->
 
-    </article>
+    <!--features-->
+    <div class="container-wrapper container-wrapper-lightblue">
+        <div class="container features-container content-container">
+            <section class="features">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase">Features:</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fa fa-home d-none d-sm-block" aria-hidden="true"></i> Feature 1</h3>
+                            <p>Advice and tips on moving to the UK with a small family. Advice and tips on moving to the UK with a small family. Advice and tips on moving to the UK with a small family. Advice and tips on moving to the UK with a small family.</p>
+                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fa fa-id-card d-none d-sm-block" aria-hidden="true"></i> Feature 2</h3>
+                            <p>Links to all the relevant government websites to make the move as eas as possible. Links to all the relevant government websites to make the move as eas as possible. Links to all the relevant government websites to make the move as eas as possible.</p>
+                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 d-md-none d-lg-block col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fa fa-comments d-none d-sm-block" aria-hidden="true"></i> Feature 3 <span class="badge badge-success">NEW!</span></h3>
+                            <p>English language lessons, tips and online classes available. English language lessons, tips and online classes available. English language lessons, tips and online classes available. English language lessons, tips and online classes available.</p>
+                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>    
+    </div>
+    <!--features-->
+
+    
 
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
