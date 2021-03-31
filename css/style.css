@@ -168,7 +168,7 @@ body {
 /*quotes*/
 
 #parallax-image {
-    background: url("../images/background2.jpg") no-repeat top right fixed; 
+    background: url("../images/background2.jpg") no-repeat bottom right fixed; 
     height: 500px;
     margin-bottom: 50px;
     background-attachment: fixed;
