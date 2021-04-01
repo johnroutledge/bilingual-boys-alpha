@@ -54,9 +54,9 @@ body {
 .features-container {}
 
 /*navbar*/
-
+ 
 .navalert-container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     padding-left: 0;
@@ -81,6 +81,14 @@ body {
 
 .navbar .navbar-nav a {
     font-weight: bold;
+} 
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    transition: 0.5s;
 }
 
 /*content container*/
@@ -170,9 +178,10 @@ body {
 #parallax-image {
     background: url("../images/background2.jpg") no-repeat bottom right fixed; 
     height: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
