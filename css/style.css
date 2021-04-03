@@ -26,7 +26,7 @@ body {
 .callout-container {
     height: 100vh;
 
-    background: url("../images/background1.jpg") no-repeat top right fixed; 
+    background: url("../images/background2.jpg") no-repeat right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -37,6 +37,20 @@ body {
     justify-content: center;
 
     position: relative;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
 }
 
 .opaque-overlay {
@@ -77,6 +91,7 @@ body {
 
 .navbar-brand {
     font-weight: bold;
+    padding-left: 10px;
 }
 
 .navbar .navbar-nav a {
@@ -176,7 +191,7 @@ body {
 /*quotes*/
 
 #parallax-image {
-    background: url("../images/background2.jpg") no-repeat bottom right fixed; 
+    background: url("../images/background1.jpg") no-repeat bottom right fixed; 
     height: 500px;
     margin-bottom: 0px;
     background-attachment: fixed;
